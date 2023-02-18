@@ -1,0 +1,10 @@
+Write a C/C++ program that uses the UNIX pipe and process control system calls (fork,
+exec, exit, pipe, wait and dup2) to connect a series of processes in a "pipeline", such that
+the standard output of the first process is connected to the standard input of the second
+process, the standard output of the second is connected to the standard input of the third,
+and so on.
+If your executable program for the above is upp.exe then the command line
+$upp P1 P2 P3 P4
+should be executed as the standard output of P1 should go as standard input of P2 and the
+standard output of P2 should go as standard output of P3, and so on.
+You can write any simple logic programs for P1, P2, P3, P4.
